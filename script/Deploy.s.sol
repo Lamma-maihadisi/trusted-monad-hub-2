@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.13;
 
-import "forge-std/Script.sol";
-import "../contracts/TruthToken.sol";
-import "../contracts/TrustedVerification.sol";
+import {Script} from "forge-std/Script.sol";
+import {TruthToken} from  "../contracts/TruthToken.sol";
+import {TrustedVerification} from  "../contracts/TrustedVerification.sol";
 
 contract DeployScript is Script {
     function run() public {
